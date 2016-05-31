@@ -1,0 +1,24 @@
+name:                nested-containers
+version:             0.1.0.0
+synopsis:            Treat nested containers like regular maps with composed keys.
+homepage:            https://github.com/sjakobi/nested-containers#readme
+license:             BSD3
+author:              Simon Jakobi
+maintainer:          simon.jakobi@gmail.com
+copyright:           BSD3
+category:            Data
+
+dependencies:
+  - base >= 4.7 && < 5
+  - keys
+  - mono-traversable
+  - transformers
+  - containers
+  - unordered-containers
+  - hashable
+  - focus
+
+library:
+  source-dirs: src
+  exposed-modules:
+    - NestedContainers
